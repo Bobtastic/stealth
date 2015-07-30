@@ -57,7 +57,7 @@
 			$.getJSON('http://copstealth.herokuapp.com/api/1/3/100', function(data){
 					$.each(data, function(i, val)
 					{
-						$("table").append("<tr><td>"+(i+1)+")</td><td>"+val.Initials+"</td><td>"+val.LevelTime/60+" Min "+val.LevelTime%60+" Sec</td></tr>");
+						$("table").append("<tr><td>"+(i+1)+")</td><td>"+val.Initials+"</td><td>"+Math.floor(val.LevelTime/60)+" Min "+val.LevelTime%60+" Sec</td></tr>");
 					})
 				});
 		</script>
