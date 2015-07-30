@@ -46,7 +46,7 @@
 			<td>Initials</td>
 			<td>Score</td>
 		<script type="text/javascript">
-			$.getJSON('http://copstealth.herokuapp.com/api/5/0', function(data){
+			$.getJSON('http://copstealth.herokuapp.com/api/5/0/100', function(data){
 					$.each(data, function(i, val){
 						$("table").append("<tr><td>"+(i+1)+")</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
 					})

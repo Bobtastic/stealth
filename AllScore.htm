@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<link rel="stylesheet" type="css" href="stylesheet.css">
-	<link rel="icon" href="Leinecker.jpg" type="image/jpg" />
+	<link rel="icon" href="Leinecker.jpg" type="image/jpg"/>
 	<title>Level 1 Scores</title>
 </head>
 
@@ -47,7 +47,7 @@
 			<td>Score</td>
 		</tr>
 		<script type="text/javascript">
-			$.getJSON('http://copstealth.herokuapp.com/api/1/0', function(data){
+			$.getJSON('http://copstealth.herokuapp.com/api/1/0/100', function(data){
 					$.each(data, function(i, val){
 						$("table").append("<tr><td>"+(i+1)+")</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
 					})
