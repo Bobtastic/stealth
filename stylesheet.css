@@ -156,9 +156,9 @@ table
 {
 	font-size: 25px;
 	color: gold;
-	position: absolute;
-	top:35%;
-	left: 40%;
+	position: fixed;
+	left: 45%;
+	padding-bottom: 20px;
 }
 
 .levels
