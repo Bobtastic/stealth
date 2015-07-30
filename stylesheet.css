@@ -157,12 +157,11 @@ table
 	text-align: center;
 	list-style-type: none;
 	font-size: 25px;
+	border: 1;
 	color: gold;
-}
-
-.tables
-{
-	text-align: center;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .levels
