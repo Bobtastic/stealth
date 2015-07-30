@@ -154,10 +154,10 @@ p
 
 table
 {
+	text-align: center;
+	list-style-type: none;
 	font-size: 25px;
 	color: gold;
-	position: fixed;
-	vertical-align: middle;
 }
 
 .levels
