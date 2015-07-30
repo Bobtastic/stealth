@@ -152,12 +152,7 @@ p
 	font-style: italic;
 }
 
-.score
-{
-	padding-left: 3em;
-}
-
-ol
+table
 {
 	text-align: center;
 	list-style-type: none;
