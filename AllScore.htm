@@ -42,13 +42,14 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<table>
 		<tr>
-			<td>Place</td>
+			<td> </td>
 			<td>Initials</td>
 			<td>Score</td>
+		</tr>
 		<script type="text/javascript">
 			$.getJSON('http://copstealth.herokuapp.com/api/1/0', function(data){
 					$.each(data, function(i, val){
-						$("table").append("<tr><td>"+(i+1)+".</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
+						$("table").append("<tr><td>"+(i+1)+")</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
 					})
 				});
 		</script>
