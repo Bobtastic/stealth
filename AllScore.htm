@@ -40,15 +40,17 @@
 	</p>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<table align="middle">
-		<script type="text/javascript">
-			$.getJSON('http://copstealth.herokuapp.com/api/1/0', function(data){
-					$.each(data, function(i, val){
-						$("table").append("<tr><td>"+(i+1)+".</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
-					})
-				});
-		</script>
-	</table>
+	<div class="tables">
+		<table>
+			<script type="text/javascript">
+				$.getJSON('http://copstealth.herokuapp.com/api/1/0', function(data){
+						$.each(data, function(i, val){
+							$("table").append("<tr><td>"+(i+1)+".</td><td>"+val.Initials+"</td><td>"+val.Score+" Pts</td></tr>");
+						})
+					});
+			</script>
+		</table>
+	</div>
 	<div id="footer">
 		<p>Copyright <img src="copyright.png" id="copy" />: Guf, Marcus, Robert, Xavier</p>
 	</div>
