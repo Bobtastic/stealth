@@ -157,8 +157,7 @@ table
 	font-size: 25px;
 	color: gold;
 	position: fixed;
-	left: 45%;
-	padding-bottom: 20px;
+	vertical-align: middle;
 }
 
 .levels
